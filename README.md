@@ -13,3 +13,8 @@ Basic deployment of Machine Learning and Deep Learning models to Heroku PaaS.
 Deployed to Heroku using either of the following methods:
 - using Docker, pushing the image to Heroku container registry and deploying it ([Dockerfile](./Dockerfile))
 - using Heroku Python buildpack, by deploying it through Git ([Procfile](./Procfile))
+
+Docker image for this project is available at [Docker Hub](https://hub.docker.com/r/manishasaini/model-deployment-mldl) and could be pulled using:
+```bash
+docker pull manishasaini/model-deployment-mldl
+```
